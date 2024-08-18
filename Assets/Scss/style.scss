@@ -1,0 +1,26 @@
+@import 'variables-mixins';
+
+@import 'header';
+@import 'main';
+@import 'footer';
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+p{
+    max-width: 55ch;
+}
+
+a{
+    display: inline-block;
+}
+
+// efeitos com javascript
+.js{
+    
+}
