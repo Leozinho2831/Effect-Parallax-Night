@@ -1,3 +1,17 @@
+$font: 'Poppins', sans-serif;
+
+// cores
+$background: #1d002c;
+$light-blue: #12f7ff;
+$background-producs: #121137;
+
+$track-scroll: #67ccff;
+$thumb-scroll: #194eb9;
+
+$text-shadow: rgba(0, 0, 0, 0.85);
+$white: #ffffff;
+$black: #000000;
+
 @function rem($pixeis, $contexto: 16){
     @return ($pixeis / $contexto) * 1rem;
 }
